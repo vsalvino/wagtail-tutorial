@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% load wagtailcore_tags wagtailimages_tags %}
+
+{% block content %}
+
+    <h1>{{page.title}}</h1>
+
+    <p class="blog-date">{{page.date}}</p>
+
+    <p class="blog-intro">{{page.intro}}</p>
+
+    {% image page.image fill-600x300 as blog_image %}
+    <div class="blog-image">
+        <img src="{{blog_image.url}}" alt="{{blog_image.title}}">
+    </div>
+
+    <div class="blog-body">
+        {% include_block page.body %}
+    </div>
+
+{% endblock %}

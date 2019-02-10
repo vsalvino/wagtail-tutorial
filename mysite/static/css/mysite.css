@@ -1,0 +1,40 @@
+/*** STEP 5
+
+body {
+    font-family: "Corbel", sans-serif;
+    line-height: 1.5em;
+    background-color: darkslateblue;
+    margin: 0;
+}
+
+#content {
+    background-color: whitesmoke;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 40px;
+}
+
+.blog-date {
+    color: gray;
+}
+.blog-intro {
+    font-style: italic;
+}
+
+.blog-image img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-preview {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.blog-preview h3 {
+    margin: 0;
+}
+
+END STEP 5 ***/

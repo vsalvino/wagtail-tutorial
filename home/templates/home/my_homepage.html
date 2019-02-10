@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% load wagtailcore_tags wagtailimages_tags %}
+
+{% block content %}
+    {% include_block page.body %}
+
+    <!-- {% comment STEP 4 %}
+    <h2>From the Blog</h2>
+    <div class="blogpages">
+        {% for blog in blogpages %}
+        <div class="blog-preview">
+            <h3><a href="{{blog.url}}">{{blog.title}}</a></h3>
+            <p>
+                {{blog.intro}}
+                <a href="{{blog.url}}">Read more...</a>
+            </p>
+        </div>
+        {% endfor %}
+    </div>
+    {% endcomment %} -->
+
+{% endblock %}
