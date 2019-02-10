@@ -177,5 +177,7 @@ Best place to start is https://wagtail.io.
 
 If you find yourself enjoying wagtail, but feel like defining all the models and templates
 is a lot of tedium, you're not alone. Check out [CodeRed CMS](https://github.com/coderedcorp/coderedcms),
-which is essentially wagtail on steroids with tons of features that work out of the box for
-building marketing-centric websites.
+which is essentially wagtail on steroids with tons of standard features that work out of the box.
+CodeRed CMS is designed to be a professional WordPress-alternative for building marketing-centric websites.
+
+[Check out CodeRed CMS 😎](https://github.com/coderedcorp/coderedcms)
