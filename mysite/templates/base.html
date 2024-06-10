@@ -24,8 +24,9 @@
         {% endif %}
 
         {# Global stylesheets #}
+        <!-- ### STEP 5 ###
         <link rel="stylesheet" type="text/css" href="{% static 'css/mysite.css' %}">
-
+        ---  ### STEP 5 ### -->
         {% block extra_css %}
         {# Override this in templates to add extra stylesheets #}
         {% endblock %}
@@ -34,7 +35,9 @@
     <body class="{% block body_class %}{% endblock %}">
         {% wagtailuserbar %}
 
-        {% block content %}{% endblock %}
+        <div id="content">
+          {% block content %}{% endblock %}
+        </div>
 
         {# Global javascript #}
         <script type="text/javascript" src="{% static 'js/mysite.js' %}"></script>
